@@ -1,0 +1,15 @@
+body{margin:0;padding:0}
+.card{
+    overflow: hidden;
+    
+    img{
+        transform: scale(1);
+        transition: all 0.5s ease-in-out;
+    }
+    &:hover{
+        cursor: pointer;
+        img{
+            transform: scale(1.2);
+        }
+    }
+}
